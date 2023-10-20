@@ -6,6 +6,8 @@ body {
   }
 
 .texto {
-    background-color: white;
-    linear border: ;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  24px 24px 48px #a6a6a6,
+               -24px -24px 48px #ffffff;
   }
