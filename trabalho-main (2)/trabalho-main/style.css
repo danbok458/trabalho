@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+  }
+
+.texto1 {
+position: absolute;
+top: 200px;
+border-radius: 7px;
+background: #EEEEEE;
+box-shadow:  35px 35px 70px #BDBDBD,
+             -35px -35px 70px #BDBDBD;
+}
+.texto2 {
+  position: absolute;
+  top: 300px;
+  border-radius: 7px;
+  background: #EEEEEE;
+  box-shadow:  35px 35px 70px #BDBDBD,
+               -35px -35px 70px #BDBDBD;
+  }.texto3 {
+    position: absolute;
+    top: 400px;
+    border-radius: 7px;
+    background: #EEEEEE;
+    box-shadow:  35px 35px 70px #BDBDBD,
+                 -35px -35px 70px #BDBDBD;
+    }.texto4 {
+      position: absolute;
+      top: 500px;
+      border-radius: 7px;
+      background: #EEEEEE;
+      box-shadow:  35px 35px 70px #BDBDBD,
+                   -35px -35px 70px #BDBDBD;
+      }.texto5 {
+        position: absolute;
+        top: 600px;
+        border-radius: 7px;
+        background: #EEEEEE;
+        box-shadow:  35px 35px 70px #BDBDBD,
+                     -35px -35px 70px #BDBDBD;
+        }.texto6 {
+          position: absolute;
+          top: 700px;
+          border-radius: 7px;
+          background: #EEEEEE;
+          box-shadow:  35px 35px 70px #BDBDBD,
+                       -35px -35px 70px #BDBDBD;
+          }.texto7 {
+            position: absolute;
+            top: 830px;
+            border-radius: 7px;
+            background: #EEEEEE;
+            box-shadow:  35px 35px 70px #BDBDBD,
+                         -35px -35px 70px #BDBDBD;
+            }.texto8 {
+              position: absolute;
+              top: 950px;
+              border-radius: 7px;
+              background: #EEEEEE;
+              box-shadow:  35px 35px 70px #BDBDBD,
+                           -35px -35px 70px #BDBDBD;
+              }
+
+ 
+ 
+              .titulo {
+              position: absolute;
+              border-bottom: 1px solid black;
+              }
+              .cabeçalho {
+              position: absolute;  
+              top: 70px;
+              
+              } 
+
+              button {
+                /* Variables */
+                button_radius: 0.75em;
+                button_color: #e8e8e8;
+                --button_outline_color: #000000;
+                font-size: 17px;
+                font-weight: bold;
+                border: none;
+                border-radius: var(--button_radius);
+                background: var(--button_outline_color);
+              }
+              
+              .button_top {
+                display: block;
+                box-sizing: border-box;
+                border: 2px solid var(--button_outline_color);
+                border-radius: var(--button_radius);
+                padding: 0.75em 1.5em;
+                background: var(--button_color);
+                color: var(--button_outline_color);
+                transform: translateY(-0.2em);
+                transition: transform 0.1s ease;
+              }
+              
+              button:hover .button_top {
+                /* Pull the button upwards when hovered */
+                transform: translateY(-0.33em);
+              }
+              
+              button:active .button_top {
+                /* Push the button downwards when pressed */
+                transform: translateY(0);
+              }
+    
+    
+  
